@@ -1,7 +1,7 @@
-# CodiTeach Frontend
+# CodiTeach
 
 ## Introduction
-CodiTeach is an innovative educational platform designed to streamline the learning and teaching process. This frontend repository, built with React.js, TypeScript, and Vite, provides a dynamic and responsive user interface.
+CodiTeach is an innovative educational platform designed to streamline the learning and teaching process. This frontend repository, built with React.js, TypeScript, NestJS and Vite, provides a dynamic and responsive user interface.
 
 ## Setup and Installation
 1. Clone the repository: `git clone <repository-url>`.
