@@ -1,0 +1,336 @@
+{
+  "grades": {
+    "us": [
+      {
+        "grade": 1,
+        "chapters": [
+          { "queue": 1, "title": "The ABC of Digital Literacy" },
+          { "queue": 2, "title": "CodiPlay" },
+          { "queue": 3, "title": "Engineering thinking" }
+        ]
+      },
+      {
+        "grade": 2,
+        "chapters": [
+          { "queue": 1, "title": "The ABC of Digital Literacy" },
+          { "queue": 2, "title": "CodiPlay" },
+          { "queue": 3, "title": "Engineering thinking" },
+          { "queue": 4, "title": "Block Coding (Scratch)" }
+        ]
+      },
+      {
+        "grade": 3,
+        "chapters": [
+          { "queue": 1, "title": "Algorithms in our lives" },
+          { "queue": 2, "title": "CodiPlay Programming" },
+          { "queue": 3, "title": "Engineering thinking" },
+          { "queue": 4, "title": "Block coding (Scratch), Virtual Arduino" }
+        ]
+      },
+      {
+        "grade": 4,
+        "chapters": [
+          { "queue": 1, "title": "Mobile application simulator for learning algorithms" },
+          { "queue": 2, "title": "Algorithm for a mobile game" },
+          { "queue": 3, "title": "Engineering thinking" },
+          { "queue": 4, "title": "Robotics in the virtual world" }
+        ]
+      },
+      {
+        "grade": 5,
+        "chapters": [
+          { "queue": 1, "title": "Playing with CodiPlay" },
+          { "queue": 2, "title": "CodiKit is fun" },
+          { "queue": 3, "title": "Engineering thinking" },
+          { "queue": 4, "title": "Python with CodiPlay" }
+        ]
+      },
+      {
+        "grade": 6,
+        "chapters": [
+          { "queue": 1, "title": "CodiPlay games algorithms" },
+          { "queue": 2, "title": "Arduino with CodiPlay" },
+          { "queue": 3, "title": "Engineering thinking" },
+          { "queue": 4, "title": "Block coding (Scratch). Introduction to Arduino UNO Circuitry" }
+        ]
+      },
+      {
+        "grade": 7,
+        "chapters": [
+          { "queue": 1, "title": "Robotics" },
+          { "queue": 2, "title": "I am a robotics engineer" },
+          { "queue": 3, "title": "More Robotics" },
+          { "queue": 4, "title": "Python" }
+        ]
+      },
+      {
+        "grade": 8,
+        "chapters": [
+          { "queue": 1, "title": "Robotics" },
+          { "queue": 2, "title": "I am a robotics engineer" },
+          { "queue": 3, "title": "Robotics in our lives" },
+          { "queue": 4, "title": "Python with CodiPlay" }
+        ]
+      },
+      {
+        "grade": 9,
+        "chapters": [
+          { "queue": 1, "title": "Arduino UNO" },
+          { "queue": 2, "title": "More Arduino UNO" },
+          { "queue": 3, "title": "Projects from CodiPlay" },
+          { "queue": 4, "title": "Python" }
+        ]
+      },
+      {
+        "grade": 10,
+        "chapters": [
+          { "queue": 1, "title": "Data input/Output" },
+          { "queue": 2, "title": "Conditional operator" },
+          { "queue": 3, "title": "Data Types" },
+          { "queue": 4, "title": "For and while loops" },
+          { "queue": 5, "title": "String data type" },
+          { "queue": 6, "title": "Lists" },
+          { "queue": 7, "title": "Functions" }
+        ]
+      },
+      {
+        "grade": 11,
+        "chapters": [
+          { "queue": 1, "title": "Introduction to Python" },
+          { "queue": 2, "title": "Data analysis" },
+          { "queue": 3, "title": "Web development" },
+          { "queue": 4, "title": "Machine learning in CodiPlay" },
+          { "queue": 5, "title": "Scientific computing" },
+          { "queue": 6, "title": "Scripts and automation" },
+          { "queue": 7, "title": "Project work" }
+        ]
+      }
+    ],
+    "kz": [
+      {
+        "grade": 1,
+        "chapters": [
+          { "queue": 1, "title": "Цифрлық сауаттылық әліппесі" },
+          { "queue": 2, "title": "CodiPlay" },
+          { "queue": 3, "title": "Инженерлік ойлау" }
+        ]
+      },
+      {
+        "grade": 2,
+        "chapters": [
+          { "queue": 1, "title": "Цифрлық сауаттылық әліппесі" },
+          { "queue": 2, "title": "CodiPlay" },
+          { "queue": 3, "title": "Инженерлік ойлау" },
+          { "queue": 4, "title": "Блоктық кодинг (Scratch)" }
+        ]
+      },
+      {
+        "grade": 3,
+        "chapters": [
+          { "queue": 1, "title": "Біздің өміріміздегі алгоритмдер" },
+          { "queue": 2, "title": "CodiPlay бағдарламалауы" },
+          { "queue": 3, "title": "Инженерлік ойлау" },
+          { "queue": 4, "title": "Блоктық кодинг (Scratch), Виртуалды ардуино" }
+        ]
+      },
+      {
+        "grade": 4,
+        "chapters": [
+          { "queue": 1, "title": "Алгоритмдерді үйренуге арналған жаттықтырғыш мобильді қосымшасы" },
+          { "queue": 2, "title": "Мобильді ойынға арналған алгоритм" },
+          { "queue": 3, "title": "Инженерлік ойлау" },
+          { "queue": 4, "title": "Виртуалды әлемдегі робототехника" }
+        ]
+      },
+      {
+        "grade": 5,
+        "chapters": [
+          { "queue": 1, "title": "CodiPlay ойнаймыз" },
+          { "queue": 2, "title": "CodiKit бұл көңілді" },
+          { "queue": 3, "title": "Инженерлік ойлау" },
+          { "queue": 4, "title": "СodiPlay-мен Python" }
+        ]
+      },
+      {
+        "grade": 6,
+        "chapters": [
+          { "queue": 1, "title": "CodiPlay ойындар алгоритмдер" },
+          { "queue": 2, "title": "CodiPlay-мен Arduino" },
+          { "queue": 3, "title": "Инженерлік ойлау" },
+          { "queue": 4, "title": "Блоктық кодинг (Scratch). Arduino UNO сызба техникасына кіріспе" }
+        ]
+      },
+      {
+        "grade": 7,
+        "chapters": [
+          { "queue": 1, "title": "Робототехника" },
+          { "queue": 2, "title": "Мен робототехника инженерімін" },
+          { "queue": 3, "title": "Робототехника туралы көбірек" },
+          { "queue": 4, "title": "Python" }
+        ]
+      },
+      {
+        "grade": 8,
+        "chapters": [
+          { "queue": 1, "title": "Робототехника" },
+          { "queue": 2, "title": "Мен робототехника инженерімін" },
+          { "queue": 3, "title": "Біздің өміріміздегі робототехника" },
+          { "queue": 4, "title": "СodiPlay-мен Python" }
+        ]
+      },
+      {
+        "grade": 9,
+        "chapters": [
+          { "queue": 1, "title": "Arduino UNO" },
+          { "queue": 2, "title": "Arduino UNO туралы көбірек" },
+          { "queue": 3, "title": "CodiPlay жобалары" },
+          { "queue": 4, "title": "Python" }
+        ]
+      },
+      {
+        "grade": 10,
+        "chapters": [
+          { "queue": 1, "title": "Деректерді енгізу-шығару" },
+          { "queue": 2, "title": "Шартты оператор" },
+          { "queue": 3, "title": "Деректер түрлері" },
+          { "queue": 4, "title": "For және while циклдары" },
+          { "queue": 5, "title": "Деректердің жол түрі" },
+          { "queue": 6, "title": "Тізімдер" },
+          { "queue": 7, "title": "Функциялар" }
+        ]
+      },
+      {
+        "grade": 11,
+        "chapters": [
+          { "queue": 1, "title": "Python кіріспе" },
+          { "queue": 2, "title": "Деректерді талдау" },
+          { "queue": 3, "title": "Веб-әзірлеу" },
+          { "queue": 4, "title": "CodiPlay машиналық оқыту" },
+          { "queue": 5, "title": "Ғылыми есептеулер" },
+          { "queue": 6, "title": "Скриптер және автоматтандыру" },
+          { "queue": 7, "title": "Жобалық жұмыс" }
+        ]
+      }
+    ],
+    "ru": [
+      {
+        "grade": 1,
+        "chapters": [
+          { "queue": 1, "title": "Азбука цифровой грамотности" },
+          { "queue": 2, "title": "CodiPlay" },
+          { "queue": 3, "title": "Инженерное мышление" }
+        ]
+      },
+      {
+        "grade": 2,
+        "chapters": [
+          { "queue": 1, "title": "Азбука цифровой грамотности" },
+          { "queue": 2, "title": "CodiPlay" },
+          { "queue": 3, "title": "Инженерное мышление" },
+          { "queue": 4, "title": "Блочный кодинг (Scratch)" }
+        ]
+      },
+      {
+        "grade": 3,
+        "chapters": [
+          { "queue": 1, "title": "Алгоритмы в нашей жизни" },
+          { "queue": 2, "title": "Программирование CodiPlay" },
+          { "queue": 3, "title": "Инженерное мышление" },
+          { "queue": 4, "title": "Блочный кодинг (Scratch), Виртуальный ардуино" }
+        ]
+      },
+      {
+        "grade": 4,
+        "chapters": [
+          { "queue": 1, "title": "Мобильное приложения тренажер для изучения алгоритмов" },
+          { "queue": 2, "title": "Алгоритм для мобильной игры" },
+          { "queue": 3, "title": "Инженерное мышление" },
+          { "queue": 4, "title": "Робототехника в виртуальном мире" }
+        ]
+      },
+      {
+        "grade": 5,
+        "chapters": [
+          { "queue": 1, "title": "Играем с CodiPlay" },
+          { "queue": 2, "title": "CodiKit это весело" },
+          { "queue": 3, "title": "Инженерное мышление" },
+          { "queue": 4, "title": "Python с СodiPlay" }
+        ]
+      },
+      {
+        "grade": 6,
+        "chapters": [
+          { "queue": 1, "title": "CodiPlay игры алгоритмы" },
+          { "queue": 2, "title": "Arduino с CodiPlay" },
+          { "queue": 3, "title": "Инженерное мышление" },
+          { "queue": 4, "title": "Блочный кодинг (Scratch). Введение в схемотехнику Arduino UNO" }
+        ]
+      },
+      {
+        "grade": 7,
+        "chapters": [
+          { "queue": 1, "title": "Робототехника" },
+          { "queue": 2, "title": "Я инженер-робототехник" },
+          { "queue": 3, "title": "Больше робототехники" },
+          { "queue": 4, "title": "Python" }
+        ]
+      },
+      {
+        "grade": 8,
+        "chapters": [
+          { "queue": 1, "title": "Робототехника" },
+          { "queue": 2, "title": "Я инженер-робототехник" },
+          { "queue": 3, "title": "Робототехника в нашей жизни" },
+          { "queue": 4, "title": "Python с СodiPlay" }
+        ]
+      },
+      {
+        "grade": 9,
+        "chapters": [
+          { "queue": 1, "title": "Arduino UNO" },
+          { "queue": 2, "title": "Больше Arduino UNO" },
+          { "queue": 3, "title": "Проекты из CodiPlay" },
+          { "queue": 4, "title": "Python" }
+        ]
+      },
+      {
+        "grade": 10,
+        "chapters": [
+          { "queue": 1, "title": "Ввод-вывод данных" },
+          { "queue": 2, "title": "Условный оператор" },
+          { "queue": 3, "title": "Типы данных" },
+          { "queue": 4, "title": "Циклы for и while" },
+          { "queue": 5, "title": "Строковый тип данных" },
+          { "queue": 6, "title": "Списки" },
+          { "queue": 7, "title": "Функции" }
+        ]
+      },
+      {
+        "grade": 11,
+        "chapters": [
+          { "queue": 1, "title": "Введение в Python" },
+          { "queue": 2, "title": "Анализ данных" },
+          { "queue": 3, "title": "Веб-разработка" },
+          { "queue": 4, "title": "Машинное обучение в CodiPlay" },
+          { "queue": 5, "title": "Научные вычисления" },
+          { "queue": 6, "title": "Скрипты и автоматизация" },
+          { "queue": 7, "title": "Проектная работа" }
+        ]
+      }
+    ]
+  },
+  "lessonTypes": {
+    "us": [
+      "Practical lesson – conducted in the form of practical or laboratory work.",
+      "Study lesson – conducted using critical thinking development technology."
+    ],
+    "kz": [
+      "Практикалық сабақ – практикалық не лабораториялық жұмыста өтеді.",
+      "Оқу сабағы – пікірлі ойлауды дамыту технологиясы бойынша өтеді."
+    ],
+    "ru": [
+      "Урок-практикум – проводится в виде практической или лабораторной работы.",
+      "Урок-изучение – проводится по технологии развития критического мышления."
+    ]
+  }
+}
