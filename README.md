@@ -21,7 +21,7 @@ Your project also depends on several additional npm packages. Ensure all of thes
 - **@mantine/...**: Various Mantine components and hooks for building the UI. All Mantine packages are open-source and licensed under the [MIT License](https://github.com/mantinedev/mantine/blob/master/LICENSE).
 - **axios**: Promise-based HTTP client for the browser and node.js. [Learn about axios](https://axios-http.com/docs/intro). Axios is open-source and licensed under the [MIT License](https://github.com/axios/axios/blob/master/LICENSE).
 - **dayjs**: A minimalist JavaScript library for parsing, validating, manipulating, and displaying dates and times. [Day.js documentation](https://day.js.org/). Day.js is open-source and licensed under the [MIT License](https://github.com/iamkun/dayjs/blob/dev/LICENSE).
-- **react-router-dom**: The standard routing library for React. [React Router documentation](https://reactrouter.com/docs/en/v6/getting-started/overview). React Router is open-source and licensed under the [MIT License](https://github.com/remix-run/react-router/blob/main/LICENSE.md).
+- **react-router-dom**: The standard routing library for React. [React Router documentation](https://reactrouter.com/en/6.22.0). React Router is open-source and licensed under the [MIT License](https://github.com/remix-run/react-router/blob/main/LICENSE.md).
 - **zustand**: A simple, fast, and scalable bearbones state-management solution. [Zustand on GitHub](https://github.com/pmndrs/zustand). Zustand is open-source and licensed under the [MIT License](https://github.com/pmndrs/zustand/blob/main/LICENSE).
 
 ## Backend Requirements
