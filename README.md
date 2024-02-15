@@ -30,7 +30,7 @@ For the backend of CodiTeach, you will need:
 
 - **Node.js**: As mentioned above, Node.js is crucial for running the backend server.
 - **NestJS**: A progressive Node.js framework for building efficient and scalable server-side applications. [Get started with NestJS](https://nestjs.com/). NestJS is open-source and licensed under the [MIT License](https://github.com/nestjs/nest/blob/master/LICENSE).
-- **TypeORM**: An ORM that can run in Node.js and be used with TypeScript (or JavaScript). [TypeORM documentation](https://typeorm.io/#/). TypeORM is open-source and licensed under the [MIT License](https://github.com/typeorm/typeorm/blob/master/LICENSE.md).
+- **TypeORM**: An ORM that can run in Node.js and be used with TypeScript (or JavaScript). [TypeORM documentation](https://typeorm.io/#/). TypeORM is open-source and licensed under the [MIT License](https://github.com/typeorm/typeorm/blob/master/LICENSE).
 - **PostgreSQL**: A powerful, open-source object-relational database system. [Download PostgreSQL](https://www.postgresql.org/download/). PostgreSQL is open-source and licensed under the [PostgreSQL License](https://www.postgresql.org/about/licence/), a liberal open-source license.
 
 
