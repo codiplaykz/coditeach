@@ -1,0 +1,456 @@
+{
+  "sidebar": {
+    "home": "Басты бет",
+    "teachers": "Мұғалімдер",
+    "students": "Студенттер",
+    "classrooms": "Сыныптар",
+    "curriculums": "Оқу бағдарламалары",
+    "managers": "Менеджерлер",
+    "managerVerifications": "Менеджерлерді тексеру",
+    "schools": "Мектептер",
+    "changeLanguage": "Тілді өзгерту",
+    "profile": "Профиль",
+    "logout": "Шығу"
+  },
+  "change_language_modal": {
+    "title": "Тілді таңдаңыз",
+    "languages": {
+      "kazakh": "Қазақ",
+      "english": "Ағылшын",
+      "russian": "Орыс",
+      "uzbek": "Өзбек",
+      "azerbaijani": "Әзірбайжан"
+    },
+    "confirm": "Растау"
+  },
+  "admin_schools_page": {
+    "schoolsList": {
+      "title": "Мектептер тізімі",
+      "searchPlaceholder": "Мектепті іздеу",
+      "noSchools": "Мектептер табылмады",
+      "createSchoolButton": "Мектеп құру"
+    },
+    "schoolInfo": {
+      "title": "Мектеп туралы ақпарат",
+      "stats": {
+        "students": "Оқушылар",
+        "teachers": "Мұғалімдер",
+        "classrooms": "Сыныптар",
+        "schoolAdmins": "Мектеп әкімшілігі"
+      },
+      "segmentedControl": {
+        "students": "Оқушылар",
+        "teachers": "Мұғалімдер",
+        "classrooms": "Сыныптар",
+        "schoolAdmins": "Әкімшілік"
+      },
+      "createSchoolManagerButton": "Мектеп менеджерін құру"
+    }
+  },
+  "stats": {
+    "totalCount": "Жалпы саны"
+  },
+  "studentsTable": {
+    "name": "Аты",
+    "accountId": "Аккаунт идентификаторы",
+    "noData": "Таңдалған мектепте студенттер жоқ"
+  },
+  "teachersTable": {
+    "name": "Аты",
+    "email": "Электрондық пошта",
+    "noData": "Таңдалған мектепте мұғалімдер жоқ",
+    "action": "Әрекет"
+  },
+  "changePasswordModal": {
+    "changePasswordTitle": "Құпия сөзді өзгерту",
+    "passInputLabel": "Құпия сөз",
+    "repeatPassInputLabel": "Құпия сөзді қайталаңыз",
+    "passPlaceholder": "Құпия сөз енгізіңіз",
+    "repeatPassPlaceholder": "Құпия сөзді қайта енгізіңіз",
+    "enterPassError": "Құпия сөзді енгізіңіз!",
+    "passDifferentError": "Енгізілген құпия сөздер әр түрлі!",
+    "passIsWeak": "Енгізілген құпия сөз әлсіз, барлық ережелерді орындаңыз!",
+    "serverError": "Бірдеңе дұрыс емес, кейінірек қайталап көріңіз!",
+    "successMessage": "Сәтті!",
+    "confirmButton": "Өзгерісті растау"
+  },
+  "passwordChecker": {
+    "IncludesADigit": "Санды қамтиды",
+    "HasALowercaseLetter": "Кіші әріп бар",
+    "HasAnUppercaseLetter": "Бас әріп бар",
+    "ContainsASpecialCharacter": "Арнайы таңба бар",
+    "AtLeast8CharactersLong": "Кемінде 8 таңбадан тұрады"
+  },
+  "classroomsTable": {
+    "title": "Атауы",
+    "code": "Код",
+    "noData": "Қолжетімді сыныптар жоқ"
+  },
+  "schoolAdminsTable": {
+    "name": "Аты",
+    "email": "Электрондық пошта",
+    "role": "Рөлі",
+    "noData": "Мектеп әкімшілері қолжетімді емес"
+  },
+  "adminStudentsPage": {
+    "studentsListTitle": "Студенттер тізімі",
+    "noStudents": "Студенттер табылмады",
+    "loading": "Жүктелуде..."
+  },
+  "adminStudentsTable": {
+    "confirmAction": "Әрекетті растаңыз",
+    "warningTitle": "Ескерту",
+    "deleteWarning": "Шотты жойған кезде барлық байланысты деректер жойылады",
+    "selectedAccountsToDelete": "Жою үшін осы шоттарды таңдадыңыз",
+    "cancelButton": "Бас тарту",
+    "deleteButton": "Жою",
+    "searchPlaceholder": "Аты және электрондық пошта бойынша іздеу",
+    "deleteSelectedRowsButton": "Таңдалған {{count}} жол(дарды) жою",
+    "thID": "ID",
+    "thName": "Аты",
+    "thSchoolName": "Мектеп атауы",
+    "thClassroomID": "Сынып ID",
+    "thSchoolID": "Мектеп ID",
+    "thAccountID": "Аккаунт ID"
+  },
+  "managersPage": {
+    "managersListTitle": "Менеджерлер тізімі",
+    "noManagersFound": "Менеджерлер табылмады",
+    "table": {
+      "confirmAction": "Әрекетті растаңыз",
+      "warningTitle": "Ескерту",
+      "deleteAccountWarning": "Шотты жойған кезде, байланысты барлық мәліметтер жойылады.",
+      "selectedAccounts": "Осы шоттарды жою үшін таңдадыңыз:",
+      "cancel": "Болдырмау",
+      "delete": "Жою",
+      "searchPlaceholder": "Аты және электрондық пошта бойынша іздеу",
+      "deleteSelected": "Таңдалған жолдарды жою ({{count}})",
+      "id": "ID",
+      "name": "Аты",
+      "email": "Электрондық пошта",
+      "role": "Рөл",
+      "schoolId": "Мектеп ID",
+      "verificationStatus": "Растау мәртебесі"
+    }
+  },
+  "managerVerificationsPage": {
+    "title": "Менеджерлерді растау тізімі",
+    "noManagersFound": "Менеджерлер табылмады",
+    "table": {
+      "verified": "Расталған",
+      "notVerified": "Расталмаған",
+      "confirmAction": "Әрекетті растаңыз",
+      "warningTitle": "Ескерту",
+      "warningText": "Растау деректерін мұқият жойыңыз, шот авторизациясы растау деректерімен байланысты. Егер сіз менеджер шотын жойсаңыз, сіз сондай-ақ осы менеджер туралы растау деректерін жоя аласыз.",
+      "selectedAccountsToDelete": "Жою үшін осы шоттарды таңдадыңыз",
+      "cancelButton": "Болдырмау",
+      "deleteButton": "Жою",
+      "searchPlaceholder": "Электрондық пошта бойынша іздеу",
+      "deleteSelectedRows": "Таңдалған жолдарды жою ({{count}})",
+      "idColumn": "ID",
+      "emailColumn": "Электрондық пошта",
+      "verificationCodeColumn": "Растау коды",
+      "updatedAtColumn": "Жаңартылған уақыты",
+      "limitCountColumn": "Шектеу саны",
+      "isVerifiedColumn": "Расталды",
+      "noManagersFound": "Менеджерлер табылмады",
+      "managersCount": "{managersVerifications.length} менеджерлер",
+      "managersVerificationsListTitle": "Менеджерлерді растау тізімі"
+    }
+  },
+  "createSchoolModal": {
+    "title": "Мектеп жасау",
+    "errorTitle": "Қате",
+    "namePlaceholder": "Атауын енгізіңіз",
+    "nameLabel": "Атау",
+    "createButton": "Мектеп жасау",
+    "countryLabel": "Ел",
+    "countryPlaceholder": "Елді таңдау немесе енгізу",
+    "cityLabel": "Қала",
+    "cityPlaceholder": "Қала атауын енгізіңіз"
+  },
+  "inviteSchoolManagerModal": {
+    "title": "Мектеп менеджерінің шотын құру",
+    "errorTitle": "Қате",
+    "managerTypeLabel": "Менеджер түрін таңдаңыз",
+    "managerTypeDesc": "Менеджер түрінің шотын таңдау",
+    "teacherTypeLabel": "Мұғалім",
+    "schoolAdminTypeLabel": "Мектеп әкімшілігі",
+    "fullNamePlaceholder": "Толық атыңызды енгізіңіз",
+    "fullNameLabel": "Толық аты",
+    "passwordSwitchLabel": "Құпия сөзді орнату",
+    "passwordLabel": "Құпия сөз",
+    "passwordPlaceholder": "Құпия сөзді енгізіңіз",
+    "emailPlaceholder": "Электрондық пошта енгізіңіз",
+    "emailLabel": "Электрондық пошта",
+    "createManagerButton": "Менеджер құру",
+    "attention": "Назар аударыңыз",
+    "authorizationInfo": "Платформада рұқсат ету үшін ақпарат көрсетілген электрондық поштаға жіберіледі.",
+    "enterDataError": "Деректерді енгізіңіз",
+    "generatePassButton": "Құпия сөзді жасау"
+  },
+  "lessonPage": {
+    "title": "Қысқа мерзімді сабақ жоспары",
+    "editLesson": "Сабақты өңдеу",
+    "lessonVideos": "Сабақ бейнелері",
+    "watchVideoButton": "{{text}} бейне сабағын көру ",
+    "lessonVideoNotAdded": "Сабақ бейнелері қосылмаған",
+    "lessonPresentations": "Сабақ презентациялары",
+    "downloadPresentationButton": "{{text}} презентация файлын жүктеп алу",
+    "lessonPresentationNotAdded": "Сабақ презентациялары қосылмаған",
+    "documentFormatLabel": "Құжат форматындағы сабақ",
+    "documentLinkNotAdded": "Құжат файлының сілтемесі жүктеп салынбады",
+    "topic": "Сабақ тақырыбы",
+    "type": "Сабақ түрі",
+    "objectives": "Сабақ мақсаттары",
+    "equipment": "Сабақ жабдықтары",
+    "priorKnowledge": "Сабақ алдыңғы білім",
+    "duringClasses": "Сабақ кезінде",
+    "scheduledLessonSteps": "Жоспарланған сабақ қадамдары",
+    "plannedActivity": "Сабақтағы жоспарланған іс-әрекет",
+    "begin": "Сабақтың басы",
+    "beginTime": "0-10 минут",
+    "middle": "Сабақтың ортасы",
+    "middleTime": "10–30 мин",
+    "end": "Сабақтың соңы",
+    "endTime": "30–40 мин",
+    "қосымша ресурстар": "30–40 мин"
+  },
+  "curriculumsPage": {
+    "goBackButton": "Артқа қайту",
+    "basicLevel": "Негізгі деңгей",
+    "averageLevel": "Орташа деңгей",
+    "advancedLevel": "Жетілдірілген деңгей",
+    "difficultLevel": "Қиын деңгей",
+    "grade": "сынып",
+    "chapter": "тарау",
+    "topic": "тақырып",
+    "topics": "тақырыптар",
+    "lessonButtonClickText": "Сабақты көру үшін картаны басыңыз",
+    "changeLanguageButton": "Тілді өзгерту",
+    "addNewLessonButton": "Жаңа сабақ қосу",
+    "deleteMode": "Жою режимі",
+    "deleteSelected": "Таңдалған {{count}} жолды(ларды) жою",
+    "noTopics": "Осы тарауда тақырыптар қосылмаған",
+    "selectToView": "Тарауларды көру үшін бағаны таңдаңыз",
+    "locked_title": "Қолжетімсіз",
+    "locked_description": "Өкінішке орай, бұл тарау қазіргі уақытта қолжетімді емес. Біз сіздің қызығушылығыңыз бен түсіністігіңізді бағалаймыз."
+  },
+  "grades": [
+    {
+      "grade": 1,
+      "chapters": [
+        { "queue": 1, "title": "Цифрлық сауаттылық әліппесі" },
+        { "queue": 2, "title": "CodiPlay" },
+        { "queue": 3, "title": "Инженерлік ойлау" }
+      ]
+    },
+    {
+      "grade": 2,
+      "chapters": [
+        { "queue": 1, "title": "Цифрлық сауаттылық әліппесі" },
+        { "queue": 2, "title": "CodiPlay" },
+        { "queue": 3, "title": "Инженерлік ойлау" },
+        { "queue": 4, "title": "Блоктық кодинг (Scratch)" }
+      ]
+    },
+    {
+      "grade": 3,
+      "chapters": [
+        { "queue": 1, "title": "Біздің өміріміздегі алгоритмдер" },
+        { "queue": 2, "title": "CodiPlay бағдарламалауы" },
+        { "queue": 3, "title": "Инженерлік ойлау" },
+        { "queue": 4, "title": "Блоктық кодинг (Scratch), Виртуалды ардуино" }
+      ]
+    },
+    {
+      "grade": 4,
+      "chapters": [
+        { "queue": 1, "title": "Алгоритмдерді үйренуге арналған жаттықтырғыш мобильді қосымшасы" },
+        { "queue": 2, "title": "Мобильді ойынға арналған алгоритм" },
+        { "queue": 3, "title": "Инженерлік ойлау" },
+        { "queue": 4, "title": "Виртуалды әлемдегі робототехника" }
+      ]
+    },
+    {
+      "grade": 5,
+      "chapters": [
+        { "queue": 1, "title": "CodiPlay ойнаймыз" },
+        { "queue": 2, "title": "CodiKit бұл көңілді" },
+        { "queue": 3, "title": "Инженерлік ойлау" },
+        { "queue": 4, "title": "СodiPlay-мен Python" }
+      ]
+    },
+    {
+      "grade": 6,
+      "chapters": [
+        { "queue": 1, "title": "CodiPlay ойындар алгоритмдер" },
+        { "queue": 2, "title": "CodiPlay-мен Arduino" },
+        { "queue": 3, "title": "Инженерлік ойлау" },
+        { "queue": 4, "title": "Блоктық кодинг (Scratch). Arduino UNO сызба техникасына кіріспе" }
+      ]
+    },
+    {
+      "grade": 7,
+      "chapters": [
+        { "queue": 1, "title": "Робототехника" },
+        { "queue": 2, "title": "Мен робототехника инженерімін" },
+        { "queue": 3, "title": "Робототехника туралы көбірек" },
+        { "queue": 4, "title": "Python" }
+      ]
+    },
+    {
+      "grade": 8,
+      "chapters": [
+        { "queue": 1, "title": "Робототехника" },
+        { "queue": 2, "title": "Мен робототехника инженерімін" },
+        { "queue": 3, "title": "Біздің өміріміздегі робототехника" },
+        { "queue": 4, "title": "СodiPlay-мен Python" }
+      ]
+    },
+    {
+      "grade": 9,
+      "chapters": [
+        { "queue": 1, "title": "Arduino UNO" },
+        { "queue": 2, "title": "Arduino UNO туралы көбірек" },
+        { "queue": 3, "title": "CodiPlay жобалары" },
+        { "queue": 4, "title": "Python" }
+      ]
+    },
+    {
+      "grade": 10,
+      "chapters": [
+        { "queue": 1, "title": "Деректерді енгізу-шығару" },
+        { "queue": 2, "title": "Шартты оператор" },
+        { "queue": 3, "title": "Деректер түрлері" },
+        { "queue": 4, "title": "For және while циклдары" },
+        { "queue": 5, "title": "Деректердің жол түрі" },
+        { "queue": 6, "title": "Тізімдер" },
+        { "queue": 7, "title": "Функциялар" }
+      ]
+    },
+    {
+      "grade": 11,
+      "chapters": [
+        { "queue": 1, "title": "Python кіріспе" },
+        { "queue": 2, "title": "Деректерді талдау" },
+        { "queue": 3, "title": "Веб-әзірлеу" },
+        { "queue": 4, "title": "CodiPlay машиналық оқыту" },
+        { "queue": 5, "title": "Ғылыми есептеулер" },
+        { "queue": 6, "title": "Скриптер және автоматтандыру" },
+        { "queue": 7, "title": "Жобалық жұмыс" }
+      ]
+    }
+  ],
+  "lessonTypes": [
+    "Практикалық сабақ – практикалық не лабораториялық жұмыста өтеді.",
+    "Оқу сабағы – пікірлі ойлауды дамыту технологиясы бойынша өтеді."
+  ],
+  "loginPage": {
+    "welcomeBack": "CodiTeach-ке қош келдіңіз!",
+    "error": "Қате",
+    "emailLabel": "Электрондық пошта",
+    "emailPlaceholder": "salem@email.com",
+    "passwordLabel": "Құпия сөз",
+    "passwordPlaceholder": "Құпия сөзіңіз",
+    "signIn": "Кіру"
+  },
+  "classroomsPage": {
+    "createdAt": "Құрылған күні",
+    "notFound": "Сыныптар табылмады",
+    "classroomsListTitle": "Сыныптар тізімі",
+    "searchClassroomPlaceholder": "Сыныпты атауы немесе коды бойынша іздеу",
+    "createClassroomButton": "Сынып құру",
+    "classroomInfoTitle": "Сынып туралы ақпарат",
+    "editButton": "Өңдеу",
+    "deleteButton": "Жою",
+    "studentsText": "оқушылар",
+    "codeCopiedTooltip": "Код көшірілді ✅",
+    "studentsInClassroomTitle": "Сыныптағы оқушылар",
+    "generateAccountsButton": "Оқушылардың аккаунттарын жасау",
+    "deleteConfirmModalTitle": "Бұл сыныпты жою керек пе екеніңізге сенімдісіз бе?",
+    "deleteConfirmModalAttention": "Назар аударыңыз",
+    "deleteConfirmModalDescription": "Сыныпты жойған кезде, осы сыныпта оқитын барлық оқушылар да жойылады.",
+    "deleteConfirmModalOk": "Иә, жою",
+    "deleteConfirmModalCancel": "Жоқ, артқа оралу"
+  },
+  "teachersStudentsTable": {
+    "confirmAction": "Әрекетті растаңыз",
+    "warningTitle": "Ескерту",
+    "deleteAccountWarning": "Тіркелгіні жойған кезде барлық байланысты деректер жойылады.",
+    "selectedAccountsToDelete": "Жою үшін осы тіркелгілерді таңдадыңыз:",
+    "cancelButton": "Бас тарту",
+    "deleteButton": "Жою",
+    "searchPlaceholder": "Аты және электрондық пошта бойынша іздеу",
+    "nameHeader": "Аты",
+    "accountIdHeader": "Тіркелгі ID",
+    "noStudentsFoundMessage": "\"{{search}}\" аты немесе тіркелгі ID бар студенттер табылмады",
+    "noStudentsInClassroomMessage": "Сыныпта студенттер жоқ",
+    "studentNotFound": "'{{name}}' аты немесе тіркелгі ID бар студенттер табылмады"
+  },
+  "createClassroomModal": {
+    "title": "Сынып құру",
+    "errorTitle": "Қате",
+    "classroomTitlePlaceholder": "Сынып атауын енгізіңіз",
+    "classroomTitleLabel": "Сынып атауы",
+    "selectTeacherLabel": "Мұғалімді таңдаңыз",
+    "assignTeacherPlaceholder": "Сыныпқа мұғалімді тағайындау",
+    "createClassroomButton": "Сынып құру"
+  },
+  "schoolAdminTeachersPage": {
+    "noTeachersAdded": "Мұғалімдер қосылмаған",
+    "teachersListTitle": "Мұғалімдер тізімі",
+    "searchPlaceholder": "Мұғалімді іздеу",
+    "inviteTeacherButton": "Мұғалімді шақыру",
+    "teacherInfoTitle": "Мұғалім туралы ақпарат",
+    "resendInviteButton": "Шақыруды қайта жіберу",
+    "activeBadge": "Белсенді",
+    "inactiveBadge": "Іске қосылмаған",
+    "enrolledClassrooms": "Тіркелген сыныптар",
+    "classroomsOfTeacher": "Таңдалған мұғалімнің сыныптары",
+    "classroomsTitle": "Сыныптар",
+    "tableID": "ID",
+    "tableName": "Аты"
+  },
+  "inviteTeacherModal": {
+    "createTeacherAccount": "Мұғалімнің шотын құру",
+    "errorTitle": "Қате",
+    "enterName": "Атын енгізіңіз",
+    "nameLabel": "Аты",
+    "enterSurname": "Тегін енгізіңіз",
+    "surnameLabel": "Тегі",
+    "enterEmail": "Email енгізіңіз",
+    "emailLabel": "Email",
+    "sendInviteButton": "Шақыруды жіберу",
+    "attention": "Назар аударыңыз",
+    "informationText": "Платформада авторизациялау үшін ақпарат көрсетілген email-ге жіберіледі."
+  },
+  "studentsPage": {
+    "studentsListTitle": "Студенттер тізімі",
+    "searchPlaceholder": "Студентті іздеу",
+    "noStudentsFound": "Студенттер табылмады",
+    "studentInfoTitle": "Студент туралы ақпарат",
+    "classroomTitle": "Сынып",
+    "classroomIdPrefix": "ID",
+    "viewProgressButton": "ПРОГРЕССТІ КӨРУ",
+    "deleteFromClassroomButton": "Сыныптан жою"
+  },
+  "importStudentsDrawer": {
+    "successMsg": "Студенттердің тіркелгілері сәтті жасалды!",
+    "errorMsg": "Бір нәрсе дұрыс болмады, кейінірек қайталап көріңіз!",
+    "title": "Студенттер тізімін импорттау",
+    "downloadTitle": "Енді студенттердің аты-жөні мен құпия сөздері бар Excel файлын жүктей аласыз",
+    "buttonTitle": "Тіркелгілер тізімін жүктеу",
+    "fileInputLabel": "Excel файлын жүктеу",
+    "fileInputDesc": "Студенттер тізімінің кестесін жүктеңіз",
+    "fileInputPlaceholder": "Excel файлын жүктеу үшін нұқыңыз",
+    "clearAllButtonTitle": "Бәрін тазалау",
+    "createButtonTitle": "Студенттердің тіркелгілерін жасау",
+    "studentNameInputLabel": "Студенттің аты",
+    "studentIDInputLabel": "Студенттің ID-сы",
+    "studentPassInputLabel": "Студенттің құпия сөзі"
+  },
+  "customSelect": {
+    "nothingFound": "Ештеңе табылған жоқ"
+  }
+}

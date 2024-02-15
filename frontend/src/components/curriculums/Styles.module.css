@@ -1,0 +1,95 @@
+.root {
+    padding: calc(var(--mantine-spacing-xl) * 1.5);
+}
+
+.value {
+    font-size: rem(24px);
+    font-weight: 700;
+    line-height: 1;
+}
+
+.diff {
+    line-height: 1;
+    display: flex;
+    align-items: center;
+}
+
+.title {
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.lesson_card {
+    width: 70%;
+    transition: all ease-in-out 200ms;
+}
+
+.lesson_card:hover {
+    border: none;
+    background-color: var(--mantine-color-green-5);
+    scale: 1.02;
+    transition: all ease-in-out 200ms;
+}
+
+.lesson_card:hover .title {
+    color: white !important;
+}
+
+.lesson_card:hover .value {
+    color: white !important;
+}
+
+.lesson_card:hover .secondary {
+    color: white !important;
+}
+
+.card {
+    transition: all ease-in-out 200ms;
+}
+
+.card:hover {
+    border: none;
+    background-color: var(--mantine-color-blue-5);
+    scale: 1.02;
+    transition: all ease-in-out 200ms;
+}
+
+.card:hover .title {
+    color: white !important;
+}
+
+.card:hover .value {
+    color: white !important;
+}
+
+.card:hover .secondary {
+    color: white !important;
+}
+
+
+.locked_card {
+    transition: all ease-in-out 200ms;
+}
+
+.locked_card:hover {
+    border: none;
+    background-color: var(--mantine-color-gray-9);
+    scale: 1.02;
+    transition: all ease-in-out 200ms;
+}
+
+.locked_card:hover .title {
+    color: white !important;
+}
+
+.locked_card:hover .value {
+    color: white !important;
+}
+
+.locked_card:hover .secondary {
+    color: white !important;
+}
+
+.locked_card:hover .icon {
+    color: white;
+}

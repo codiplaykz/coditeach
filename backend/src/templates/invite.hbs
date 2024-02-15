@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email</title>
+</head>
+<body>
+<style>
+    @import url('https://fonts.cdnfonts.com/css/tt-firs-neue-trl');
+    * {
+        font-family: 'TT Firs Neue Trl', sans-serif;
+    }
+    .logo {
+        display: block;
+        width: 30%;
+        margin: 35px auto 55px auto;
+    }
+    .container {
+        border: 1px solid lightgray;
+        margin: 0 auto;
+        width: 500px;
+        border-radius: 10px;
+        padding: 20px 10px;
+    }
+    .title {
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .paragraph {
+        text-align: justify;
+        padding: 10px 35px;
+    }
+
+    .btn {
+        color: white;
+        border-radius: 5px;
+        font-weight: 400;
+        border: none;
+        background-color: #2D96F8;
+        padding: 10px 20px;
+        display: block;
+        text-decoration: none;
+        text-align: center;
+        margin: 20px 35px;
+    }
+</style>
+<div class="container">
+
+    <div class="logo-container">
+        <img class="logo" src="https://imageupload.io/ib/Ti6T8NXZXFSF2Zd_1693910736.png" alt="">
+    </div>
+    <p class="title">
+        Добро пожаловать!
+    </p>
+
+
+    <p class="paragraph">
+        Добрый день, {{ name }},
+    </p>
+
+    <p class="paragraph">
+        Мы рады сообщить, что Вас пригласили стать частью образовательной платформы CodiTeach, разработанной компанией CodiPlay. Для завершения регистрации и получения доступа ко всем функциям платформы, пожалуйста, перейдите по следующей ссылке.
+    </p>
+
+    <a class="btn" href='{{ link }}'>
+        Подтвердить и перейти на платформу
+    </a>
+
+    <p class="paragraph">
+        Мы с нетерпением ждём возможности сотрудничать с Вами!
+    </p>
+
+    <p class="paragraph">
+        С уважением,
+        Команда <span style="color: #2D96F8">CodiPlay</span>
+    </p>
+</div>
+</body>
+</html>
