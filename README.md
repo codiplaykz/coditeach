@@ -142,7 +142,7 @@ If you discover a security vulnerability within CodiTeach, please send an e-mail
 
 ## License
 
-The CodiTeach platform is open-sourced software licensed under the BSD 3-Clause.
+The CodiTeach platform is open-sourced software licensed under the [BSD 3-Clause](https://github.com/codiplaykz/coditeach/blob/main/BSD-3-Clause).
 
 
 
