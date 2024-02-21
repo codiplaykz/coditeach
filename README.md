@@ -134,7 +134,7 @@ In order to ensure that the CodiTeach community is welcoming to all, please revi
 
 ## Privacy Policy
 
-The Privacy Policy for the CodiTeach platform is available at [Privacy Policy](https://github.com/codiplaykz/coditeach/blob/main/Privacy%20policy.docx). Please review it to understand how we collect, use, and protect your information.
+The Privacy Policy for the CodiTeach platform is available at [Privacy Policy](https://github.com/codiplaykz/coditeach/blob/main/Privacy%20policy%20CodiTeach%2021022024.docx). Please review it to understand how we collect, use, and protect your information.
 
 ## Security Vulnerabilities
 
