@@ -59,7 +59,7 @@ export const api = {
 
 export const apiService = axios.create({
     // baseURL: 'http://localhost:3000',
-    baseURL: 'https://api.v2.coditeach.kz',
+    baseURL: 'https://api-teach.codiplay.com',
     withCredentials: true,
 });
 

@@ -111,7 +111,7 @@ export class ManagerService {
         const verificationCode = uuid()
         const defaultPassword = 'Test2341!'
         const { email, name, schoolId } = sendInviteDto
-        const host = 'https://coditeach.kz'
+        const host = 'https://teach.codiplay.com'
         const link = `${host}/verify/${verificationCode}`
 
         const managerVerification = await this.managerVerificationRepository.findOne({
