@@ -20,6 +20,7 @@ const student_module_1 = require("./auth/student/student.module");
 const config_1 = require("@nestjs/config");
 const path_1 = require("path");
 const lesson_module_1 = require("./lessons/lesson.module");
+const config_schema_1 = require("./config.schema");
 let AppModule = class AppModule {
 };
 AppModule = __decorate([
@@ -27,6 +28,7 @@ AppModule = __decorate([
         imports: [
             config_1.ConfigModule.forRoot({
                 envFilePath: [`.env.stage.${process.env.STAGE}`],
+                validationSchema: config_schema_1.configValidationSchema,
             }),
             typeorm_1.TypeOrmModule.forRootAsync({
                 imports: [config_1.ConfigModule],
@@ -45,23 +47,27 @@ AppModule = __decorate([
                                 rejectUnauthorized: false,
                             },
                         },
-                        synchronize: true,
+                        synchronize: configService.get('STAGE') !== 'prod',
                         autoLoadEntities: true,
                     };
                 },
             }),
-            mailer_1.MailerModule.forRoot({
-                transport: 'smtps://azamattolegenov1@gmail.com:owmuoqunujiitaos@smtp.gmail.com',
-                defaults: {
-                    from: '"nest-modules" <modules@nestjs.com>'
-                },
-                template: {
-                    dir: (0, path_1.join)(__dirname, '..', '/src/templates'),
-                    adapter: new handlebars_adapter_1.HandlebarsAdapter(),
-                    options: {
-                        strict: true
+            mailer_1.MailerModule.forRootAsync({
+                imports: [config_1.ConfigModule],
+                inject: [config_1.ConfigService],
+                useFactory: async (configService) => ({
+                    transport: configService.get('SMTP_URL'),
+                    defaults: {
+                        from: configService.get('MAIL_FROM')
+                    },
+                    template: {
+                        dir: (0, path_1.join)(__dirname, '..', '/src/templates'),
+                        adapter: new handlebars_adapter_1.HandlebarsAdapter(),
+                        options: {
+                            strict: true
+                        }
                     }
-                }
+                }),
             }),
             auth_module_1.AuthModule, manager_module_1.ManagerModule, classroom_module_1.ClassroomModule, schools_module_1.SchoolsModule, manager_verification_module_1.ManagerVerificationModule, student_module_1.StudentModule, lesson_module_1.LessonModule
         ],
