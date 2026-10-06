@@ -74,6 +74,7 @@ __decorate([
 ], StudentController.prototype, "deleteManagers", null);
 __decorate([
     (0, common_1.Post)('/create'),
+    (0, common_1.UseGuards)((0, passport_1.AuthGuard)()),
     __param(0, (0, common_1.Body)()),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", [create_student_dto_1.CreateStudentDto]),
@@ -81,6 +82,7 @@ __decorate([
 ], StudentController.prototype, "createStudent", null);
 __decorate([
     (0, common_1.Post)('/create/many'),
+    (0, common_1.UseGuards)((0, passport_1.AuthGuard)()),
     __param(0, (0, common_1.Body)()),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", [Array]),

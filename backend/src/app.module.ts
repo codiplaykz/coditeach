@@ -11,7 +11,7 @@ import {StudentModule} from "./auth/student/student.module";
 import {ConfigModule, ConfigService} from "@nestjs/config";
 import { join } from 'path'
 import {LessonModule} from "./lessons/lesson.module";
-import {configValidationSchema} from "../config.schema";
+import {configValidationSchema} from "./config.schema";
 @Module({
   imports: [
       ConfigModule.forRoot({
