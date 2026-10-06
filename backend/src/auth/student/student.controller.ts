@@ -35,11 +35,13 @@ export class StudentController {
     }
 
     @Post('/create')
+    @UseGuards(AuthGuard())
     createStudent(@Body() createStudentDto: CreateStudentDto) {
         return this.studentService.createStudent(createStudentDto)
     }
 
     @Post('/create/many')
+    @UseGuards(AuthGuard())
     createStudents(@Body() students: CreateStudentDto[]) {
         return this.studentService.createStudents(students)
     }

@@ -11,10 +11,12 @@ import {StudentModule} from "./auth/student/student.module";
 import {ConfigModule, ConfigService} from "@nestjs/config";
 import { join } from 'path'
 import {LessonModule} from "./lessons/lesson.module";
+import {configValidationSchema} from "../config.schema";
 @Module({
   imports: [
       ConfigModule.forRoot({
             envFilePath: [`.env.stage.${process.env.STAGE}`],
+            validationSchema: configValidationSchema,
       }),
       TypeOrmModule.forRootAsync({
           imports: [ConfigModule],
@@ -33,23 +35,27 @@ import {LessonModule} from "./lessons/lesson.module";
                           rejectUnauthorized: false,
                       },
                   },
-                  synchronize: true,
+                  synchronize: configService.get('STAGE') !== 'prod',
                   autoLoadEntities: true,
               }
           },
       }),
-      MailerModule.forRoot({
-        transport: 'smtps://azamattolegenov1@gmail.com:owmuoqunujiitaos@smtp.gmail.com',
-        defaults: {
-          from: '"nest-modules" <modules@nestjs.com>'
-        },
-        template: {
-          dir: join(__dirname, '..', '/src/templates'),
-          adapter: new HandlebarsAdapter(),
-          options: {
-            strict: true
+      MailerModule.forRootAsync({
+        imports: [ConfigModule],
+        inject: [ConfigService],
+        useFactory: async (configService: ConfigService) => ({
+          transport: configService.get('SMTP_URL'),
+          defaults: {
+            from: configService.get('MAIL_FROM')
+          },
+          template: {
+            dir: join(__dirname, '..', '/src/templates'),
+            adapter: new HandlebarsAdapter(),
+            options: {
+              strict: true
+            }
           }
-        }
+        }),
       })
     , AuthModule, ManagerModule, ClassroomModule, SchoolsModule, ManagerVerificationModule, StudentModule, LessonModule],
 })
